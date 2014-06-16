@@ -1,0 +1,26 @@
+{
+  "name": "jsdocs",
+  "version": "0.0.1",
+  "description": "jsdocs",
+  "bin": {
+    "jsdocs": "./bin/jsdocs"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/jsdocs.git"
+  },
+  "dependencies": {
+    "minitpl": "0.0.3",
+    "xutil": "0.0.5"
+  },
+  "keywords": ["jsdocs"],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/xudafeng/jsdocs",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
