@@ -1,6 +1,6 @@
 {
   "name": "jsdocs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jsdocs",
   "bin": {
     "jsdocs": "./bin/jsdocs"
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "minitpl": "0.0.3",
-    "xutil": "0.0.5"
+    "xutil": "0.0.5",
+    "mkdirp": "0.5.0"
   },
   "keywords": ["jsdocs"],
   "devDependencies": {

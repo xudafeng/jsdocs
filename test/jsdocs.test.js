@@ -15,6 +15,7 @@
 
 var jsdocs = require('../');
 
-var e = new jsdocs({
-  input:'./jsons'
+new jsdocs({
+  input:'./contexts',
+  output:'./docs'
 });

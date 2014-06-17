@@ -1,0 +1,9 @@
+{
+  // Node.js environment
+  "node": true,
+  "esnext": true,
+
+  "globals": {
+
+  }
+}
