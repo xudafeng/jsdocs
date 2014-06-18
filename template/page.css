@@ -38,7 +38,8 @@ body {
   margin:0;
   text-align:left;
   padding-left:20px;
-  text-shadow: 0 -1px 1px rgba(34, 34, 34, 0.52);
+  text-shadow: 0 0 1px rgba(34, 34, 34, 0.52);
+  cursor:default;
 }
 
 #page .side {
@@ -86,7 +87,8 @@ body {
   font-size:12px;
   color:#000
 }
-#page .content pre,#page .content code {
+#page .content pre,
+#page .content code {
   font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace
 }
 #page .content pre {
@@ -123,19 +125,31 @@ body {
 #page .content a:hover {
   text-decoration:underline
 }
-#page .content a code,#page .content a:link code,#page .content a:visited code {
+#page .content a code,
+#page .content a:link code,
+#page .content a:visited code {
   color:#ac0000
 }
-#page .content h2,#page .content h3 {
+#page .content h2,
+#page .content h3 {
   margin:1em 0
 }
-#page .content h1,#page .content h2,#page .content h3,#page .content h4,#page .content h5,#page .content h6 {
+#page .content h1,
+#page .content h2,
+#page .content h3,
+#page .content h4,
+#page .content h5,
+#page .content h6 {
   border:0
 }
-#page .content h1,#page .content h2,#page .content h3 {
+#page .content h1,
+#page .content h2,
+#page .content h3 {
   font-weight:600
 }
-#page .content h4,#page .content h5,#page .content h6 {
+#page .content h4,
+#page .content h5,
+#page .content h6 {
   font-weight:600
 }
 #page .content h1 {
@@ -163,11 +177,15 @@ body {
 #page .content ol {
   margin:1em 0 1em 2em
 }
-#page .content ul li,#page .content ol li {
+#page .content ul li,
+#page .content ol li {
   margin-top:.5em;
   margin-bottom:.5em
 }
-#page .content ul ul,#page .content ul ol,#page .content ol ol,#page .content ol ul {
+#page .content ul ul,
+#page .content ul ol,
+#page .content ol ol,
+#page .content ol ul {
   margin-top:0;
   margin-bottom:0
 }
@@ -180,7 +198,8 @@ body {
 #page .content dl {
   font-size:12px
 }
-#page .content dt,#page .content dd {
+#page .content dt,
+#page .content dd {
   height:30px;
   line-height:30px
 }
@@ -209,7 +228,8 @@ body {
 .item .type {
   min-width:85px
 }
-.responseItem {
+.items {
   margin-left:1em
 }
+
 

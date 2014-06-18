@@ -28,41 +28,26 @@
       </div>
       <div class="content">
         <div>
-          <h1>
-            <#=$name#>
-          </h1>
-          <p class="desc">
-            <#=$desc#>
-          </p>
+          <h1><#=$name#></h1>
+          <p class="desc"><#=$desc#></p>
           <div>
-            <div>
-              <h2>
-                数据字段
-              </h2>
-              <div class="responseItem">
-                <#each val,index in $fields#>
-                <dl class="item">
-                  <dt class="name">
-                    <#=$val.name#>
-                  </dt>
-                  <dd class="type">
-                    <#=$val.type#>
-                  </dd>
-                  <dd class="desc">
-                    <#=$val.desc#>
-                  </dd>
-                </dl>
-                <#/each#>
-              </div>
+            <h2>数据字段</h2>
+            <div class="items">
+              <#each val,index in $fields#>
+              <dl class="item">
+                <dt class="name"><#=$val.name#></dt>
+                <dd class="type"><#=$val.type#></dd>
+                <dd class="desc"><#=$val.desc#></dd>
+              </dl>
+              <#/each#>
             </div>
-            <div class="footer">
-              <p style="display:none">
-                Copyright 2014, Powered by JsDocs
-              </p>
-            </div>
+          </div>
+          <div class="footer">
+            <p style="display:none">Copyright 2014, Powered by JsDocs</p>
           </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
