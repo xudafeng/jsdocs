@@ -34,7 +34,7 @@ $ jsdocs ./src ./dist
 		* content: field value
 
 
-> You may refer to [index.htm](https://raw.githubusercontent.com/xudafeng/jsdocs/master/benchmark/src/index.md)
+> You may refer to [index.md](https://raw.githubusercontent.com/xudafeng/jsdocs/master/benchmark/src/index.md)
 
 ## License
 
