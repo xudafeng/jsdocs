@@ -11,11 +11,11 @@
  *
  * ================================================================ */
 
-"use strict";
+'use strict';
 
 var jsdocs = require('../');
 
 new jsdocs({
-  input:'./contexts',
-  output:'./docs'
+  input:'./benchmark/src',
+  output:'./benchmark'
 });

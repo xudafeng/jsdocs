@@ -12,4 +12,24 @@
  *
  * ================================================================ */
 
-"use strict";
+'use strict';
+
+var program = require('commander');
+require('colorx');
+
+program
+  .option('-v, --version', 'show version info')
+  .option('-b, --build',   'downcasted to ES5')
+  .on('build', function(args) {
+    if(!args || args.length < 2) {
+      console.error('  Lack of Arguments.'.red);
+      return program.help();
+    }
+    require('../')(args[0], args[1]);
+    process.exit(0);
+  })
+  .on('version', function() {
+    console.log('\n  ' + require('../package').version.blue + '\n')
+  })
+  .usage('<command> [options]')
+  .parse(process.argv);

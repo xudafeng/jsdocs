@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "jsdocs",
   "bin": {
+    "docs": "./bin/jsdocs",
     "jsdocs": "./bin/jsdocs"
   },
   "main": "index.js",
@@ -13,15 +14,22 @@
   "dependencies": {
     "minitpl": "0.0.3",
     "xutil": "0.0.7",
-    "mkdirp": "0.5.0"
+    "mkdirp": "0.5.0",
+    "marked": "*",
+    "commander": "*",
+    "colorx": "*"
   },
   "keywords": ["jsdocs"],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "homepage": "https://github.com/xudafeng/jsdocs",
   "author": "xudafeng",
-  "email": "xudafeng[at]126.com",
+  "email": "xudafeng@126.com",
   "blog": "http://xdf.me",
   "license": "MIT"
 }
