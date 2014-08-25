@@ -1,18 +1,18 @@
 jsdocs
 ===
 
-by xdf
+> A doc generator, written in markdown for speed.
 
 ## Installment
 
 ```bash
-$ sudo npm install jsdocs -g
+$ npm install jsdocs -g
 ```
 
 ## Quick Start
 
 ```bash
-$ jsdocs xdf
+$ jsdocs ./src ./dist
 ```
 
 ## License

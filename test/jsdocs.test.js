@@ -16,6 +16,6 @@
 var jsdocs = require('../');
 
 new jsdocs({
-  input:'./benchmark/src',
-  output:'./benchmark'
+  input:'./benchmark/src/',
+  output:'./benchmark/'
 });

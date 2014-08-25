@@ -16,6 +16,7 @@
 
 var program = require('commander');
 require('colorx');
+var Jsdocs = require('../');
 
 program
   .option('-v, --version', 'show version info')
@@ -25,7 +26,10 @@ program
       console.error('  Lack of Arguments.'.red);
       return program.help();
     }
-    require('../')(args[0], args[1]);
+    new Jsdocs({
+      input: args[0],
+      output: args[1]
+    });
     process.exit(0);
   })
   .on('version', function() {

@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>DOCS</title>
+    <title><#=$title#> - DOCS</title>
+    <link rel="shortcut icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon" />
     <style>
       <#=$stylesheet#>
     </style>
@@ -13,9 +14,9 @@
         <h1>DOCS</h1>
       </div>
       <div class="side">
-        <h2>
-          目录
-        </h2>
+        <h1>
+          catalog
+        </h1>
         <ul>
           <#each val,index in $list#>
           <li>
@@ -27,25 +28,10 @@
         </ul>
       </div>
       <div class="content">
-        <div>
-          <h1><#=$name#></h1>
-          <p class="desc"><#=$desc#></p>
-          <div>
-            <h2>数据字段</h2>
-            <div class="items">
-              <#each val,index in $fields#>
-              <dl class="item">
-                <dt class="name"><#=$val.name#></dt>
-                <dd class="type"><#=$val.type#></dd>
-                <dd class="desc"><#=$val.desc#></dd>
-              </dl>
-              <#/each#>
-            </div>
-          </div>
-          <div class="footer">
-            <p style="display:none">Copyright 2014, Powered by JsDocs</p>
-          </div>
-        </div>
+        <#=$fields#>
+      </div>
+      <div class="footer">
+        <p>Copyright 2014, Powered by <a href="https://github.com/xudafeng/jsdocs" target="_blank">JsDocs</a></p>
       </div>
     </div>
   </body>
