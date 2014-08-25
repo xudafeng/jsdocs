@@ -24,7 +24,7 @@ $ jsdocs ./src ./dist
 
 * ### Request
 	* Request Params including parameter type, e.g, string or boolean
-	* \* indicates compulsory
+	* '*' indicates compulsory
 
 * ### Response
 	* success: boolean type, indicates request is successful (true) or not (false)
