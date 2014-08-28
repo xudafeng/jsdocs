@@ -12,7 +12,7 @@ $ npm install jsdocs -g
 ## Quick Start
 
 ```bash
-$ jsdocs ./src ./dist
+$ jsdocs build ./src ./dist
 ```
 
 ##  User Guide
